@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website/static/css/main.070cc387.css",
+    "main.js": "/Portfolio-Website/static/js/main.99962610.js",
+    "static/js/787.c0767e6b.chunk.js": "/Portfolio-Website/static/js/787.c0767e6b.chunk.js",
+    "static/media/blogpage.png": "/Portfolio-Website/static/media/blogpage.48869f64a51f9a7ac11f.png",
+    "static/media/planjourney.png": "/Portfolio-Website/static/media/planjourney.7117fe454e87790122f9.png",
+    "static/media/port_img.jpg": "/Portfolio-Website/static/media/port_img.75f02aad3e6bcf4e17e1.jpg",
+    "static/media/topcourses.png": "/Portfolio-Website/static/media/topcourses.28929b0f2aaa60231ce1.png",
+    "static/media/React-icon.png": "/Portfolio-Website/static/media/React-icon.81ed438b18e24116794d.png",
+    "static/media/dev_detective.png": "/Portfolio-Website/static/media/dev_detective.dd4b346aecbb695bdd56.png",
+    "static/media/java-logo-1.png": "/Portfolio-Website/static/media/java-logo-1.fdabd4e11f1235e4e8e0.png",
+    "static/media/instagram.png": "/Portfolio-Website/static/media/instagram.ed071077fc911932f21a.png",
+    "static/media/CSS3_logo.png": "/Portfolio-Website/static/media/CSS3_logo.52a4eb4b9bed78edb97a.png",
+    "static/media/bootstrap-logo.png": "/Portfolio-Website/static/media/bootstrap-logo.3c4e1a5d3a149087b144.png",
+    "static/media/LinkedIn_icon.png": "/Portfolio-Website/static/media/LinkedIn_icon.73ca25087df5a0d8500e.png",
+    "static/media/JavaScript.png": "/Portfolio-Website/static/media/JavaScript.237ff5516504aa0fd9f4.png",
+    "static/media/discord.png": "/Portfolio-Website/static/media/discord.667df059ddf407979d68.png",
+    "index.html": "/Portfolio-Website/index.html",
+    "static/media/Arrow 2.svg": "/Portfolio-Website/static/media/Arrow 2.12c7b7af88eeea7fb812c5055cf333cd.svg",
+    "static/media/blob.svg": "/Portfolio-Website/static/media/blob.fe3f3390b66ac2bcc1713226af534701.svg",
+    "main.070cc387.css.map": "/Portfolio-Website/static/css/main.070cc387.css.map",
+    "main.99962610.js.map": "/Portfolio-Website/static/js/main.99962610.js.map",
+    "787.c0767e6b.chunk.js.map": "/Portfolio-Website/static/js/787.c0767e6b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.070cc387.css",
+    "static/js/main.99962610.js"
+  ]
+}
