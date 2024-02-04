@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    letter-spacing: 0.05rem;
+    background-color: rgb(34, 42, 53);
+    color: #828894;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 2% 9%;
+    
+}
+.brand{
+    font-weight: 800;
+    font-size: 1.2rem;
+    
+}
+.brand span{
+    color: #067CD9;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    color: #828894;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.menu:hover{
+    cursor: pointer;
+    color: white;
+}

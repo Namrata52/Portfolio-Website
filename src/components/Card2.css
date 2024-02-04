@@ -1,0 +1,105 @@
+.card-wrap {
+    width: 400px;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 36px rgba(0, 0, 0,0.4);
+    gap: 20px;
+}
+
+
+.card-img {
+    height: 247px;
+    width: auto;
+ 
+    translate: -60px;
+    border-radius: 10px;
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0,0.2));
+}
+
+.read-more{
+    color: #828894;
+    cursor: pointer;
+    font-weight: 600;
+}
+.read-more:hover{
+    color: rgba(6, 124, 217,1);
+
+}
+
+.btn-grp .Go-live {
+    background-color: #067CD9;
+    max-width: 100%;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    box-shadow: 5px 5px 7px 0px#0000003f;
+    position: relative;
+    z-index: 1;
+}
+
+.Go-live::before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    /* background-color: #1f1f1f; */
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: ease-in;
+    transition-duration: 0.8s;
+    position: absolute;
+    z-index: -1;
+}
+.Go-live:hover{
+    color: #067CD9;
+    cursor: pointer;
+}
+.Go-live:hover::before {
+    transform: scaleX(1);
+    
+
+}
+.description{
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: rgba(34, 42, 53,0.7);
+}
+
+.details {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 10px;
+}
+.details .btn-grp li{
+    list-style: none;
+}
+.btn-grp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 14px;
+}
+.github-link{
+    height: 30px;
+    width: 30px;
+
+}
+.github-link:hover{
+    cursor: pointer;
+    filter: drop-shadow(0 10px 10px rgba(6, 124, 217,0.6));
+}

@@ -1,0 +1,131 @@
+.cta-wrapper{
+    background-color: #222A35;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding: 15% 8%;
+}
+.cta-head-div{
+    max-width: 400px;
+    height: auto;
+    
+}
+.cta-head{
+    font-size: 3.5rem;
+    font-weight: 900;
+
+}
+.arrow{
+    margin-left: 30px;
+
+    margin-right: 50px;
+}
+
+.social-links{
+    margin-top: 20px;
+    
+   background-color: rgba(6, 124, 217,0.3);
+   max-width: fit-content;
+   padding: 20px;
+   border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.social-links li{
+    list-style: none;
+}
+.social-links li img{
+    height: 35px;
+    width: 35px;
+    border: none;
+    border-radius: 100%;
+}
+.bar{
+    height: 5px;
+    translate: 135%;
+    text-align: center;
+    background-color: #067CD9;
+   
+}
+.cont{
+    margin: 20px 0px;
+    translate: 0%;
+    width: 15%;
+}
+.msg{
+    margin-top: 40px;
+    color:#828894; 
+    
+}
+.msg h4{
+    margin: 10px 0px;
+}
+.msg :nth-child(2){
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.form-div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 420px;
+    width: 400px;
+    gap: 5px;
+    height: auto;
+}
+.form-input{
+    margin-bottom: 10px;
+}
+.field {
+    font-size: 0.8rem;
+    line-height: 20px;
+    padding: 6px 12px;
+    width: 100%;
+    min-height: 44px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgba(6, 124, 217,0.5);
+    background-color: rgba(255, 255, 255,0.925);
+    box-shadow: 0 0 2px rgba(0, 0, 0,0.3);
+}
+.submit-btn {
+    background-color: #067CD9;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    color: white;
+    box-shadow: 5px 5px 7px 0px#0000003f;
+    position: relative;
+    font-weight: 500;
+    font-size: 1rem;
+    z-index: 1;
+}
+
+.submit-btn::before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: ease-in;
+    transition-duration: 0.8s;
+    position: absolute;
+    z-index: -1;
+}
+.submit-btn:hover{
+    color: #067CD9;
+    cursor: pointer;
+}
+
+.submit-btn:hover::before {
+    transform: scaleX(1);
+   
+
+}
